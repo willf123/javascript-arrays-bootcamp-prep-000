@@ -23,7 +23,7 @@ var chocolateBars = [
     return chocolateBars;
   }
   
-  function accessElementInArray(chocolateBars) {
+  function accessElementInArray(chocolateBars, index) {
     
   }
   
