@@ -14,5 +14,14 @@ var chocolateBars = [
     return chocolateBars;
   }
   
+  function addElementToEndOfArray(chocolateBars, candyList) {
+    
+  }
+  
+  function destructivelyAddElementToEndOfArray(chocolateBars, candyList) {
+    
+  }
+  
+  
   
   
