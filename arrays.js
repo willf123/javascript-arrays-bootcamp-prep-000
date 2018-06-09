@@ -32,6 +32,8 @@ var chocolateBars = [
     return chocolateBars;
   }
   
-  function 
+  function removeElementFromBeginningOfArray(chocolateBars) {
+    
+  }
   
   
