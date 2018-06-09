@@ -10,15 +10,15 @@ var chocolateBars = [
   }
   
   function destructivelyAddElementToBeginningOfArray(chocolateBars, marsbar) {
-    chocolateBars.unshift(candyList);
+    chocolateBars.unshift(marsbar);
     return chocolateBars;
   }
   
-  function addElementToEndOfArray(chocolateBars, candyList) {
-    return[...chocolateBars, candyList];
+  function addElementToEndOfArray(chocolateBars, smarties) {
+    return[...chocolateBars, smarties];
   }
   
-  function destructivelyAddElementToEndOfArray(chocolateBars, candyList) {
+  function destructivelyAddElementToEndOfArray(chocolateBars, candycanes) {
     chocolateBars.push(candyList);
     return chocolateBars;
   }
