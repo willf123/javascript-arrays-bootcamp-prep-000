@@ -19,7 +19,8 @@ var chocolateBars = [
   }
   
   function destructivelyAddElementToEndOfArray(chocolateBars, candyList) {
-    
+    chocolateBars.push(candyList);
+    return chocolateBars;
   }
   
   
