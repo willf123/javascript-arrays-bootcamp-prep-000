@@ -5,21 +5,21 @@ var chocolateBars = [
   "skittles"
   ];
   
-  function addElementToBeginningOfArray(chocolateBars, candy) {
-    return [twizzlers, ...chocolateBars];
+  function addElementToBeginningOfArray(chocolateBars, candyList) {
+    return [candyList, ...chocolateBars];
   }
   
-  function destructivelyAddElementToBeginningOfArray(chocolateBars, candy) {
-    chocolateBars.unshift(marsbar);
+  function destructivelyAddElementToBeginningOfArray(chocolateBars, candyList) {
+    chocolateBars.unshift(candyList);
     return chocolateBars;
   }
   
-  function addElementToEndOfArray(chocolateBars, smarties) {
-    return[...chocolateBars, smarties];
+  function addElementToEndOfArray(chocolateBars, candyList) {
+    return[...chocolateBars, candyList];
   }
   
-  function destructivelyAddElementToEndOfArray(chocolateBars, candycanes) {
-    chocolateBars.push(candycanes);
+  function destructivelyAddElementToEndOfArray(chocolateBars, candyList) {
+    chocolateBars.push(candyList);
     return chocolateBars;
   }
   
